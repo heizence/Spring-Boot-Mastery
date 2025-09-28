@@ -1,5 +1,6 @@
 package com.todoapi.backend.dto;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
@@ -11,6 +12,7 @@ import lombok.RequiredArgsConstructor;
  */
 @Getter
 @RequiredArgsConstructor // Creates a constructor with all final fields.
+@Schema(description = "Response DTO for a Todo item")
 public class ResponseDto<T> {
 
     // A status code for the operation. e.g., 1 for success.
