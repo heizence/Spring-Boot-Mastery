@@ -88,7 +88,7 @@ Live Server 를 이용하여 index.html 파일을 웹 브라우저에서 열면 
 
 ## 부록: 더 알아보기
 
-프로젝트 [Wiki 문서]()에 들어가면 프로젝트의 구조, 적용된 핵심 개념 등 더 많은 내용을 볼 수 있습니다.
+프로젝트 [Wiki 문서](https://github.com/heizence/Spring-Boot-Mastery/wiki/Part01.-Todo-list-API-%EA%B4%80%EB%A0%A8-%ED%95%99%EC%8A%B5-%EB%82%B4%EC%9A%A9)에 들어가면 프로젝트의 구조, 적용된 핵심 개념 등 더 많은 내용을 볼 수 있습니다.
 
 **1. Spring 핵심 원리**
 
