@@ -35,7 +35,7 @@
 
 | Part | 프로젝트 | 핵심 기술 | Wiki 문서 | 소스코드 다운로드 |
 | :--: | :--- | :--- | :--- | :--- |
-| **1** | **투두리스트 API** | Spring MVC, JPA | `[작성 예정]` | `[링크 추가 예정]` |
+| **1** | **Todo list API** | Spring MVC, JPA | [Part01 Wiki](https://github.com/heizence/Spring-Boot-Mastery/wiki/Part01.-Todo-list-API-%EA%B4%80%EB%A0%A8-%ED%95%99%EC%8A%B5-%EB%82%B4%EC%9A%A9) | [Part01 Files](https://downgit.github.io/#/home?url=https://github.com/heizence/Spring-Boot-Mastery/tree/main/part01-todo-api)) |
 
 ## 💻 설치 및 실행 방법
 
