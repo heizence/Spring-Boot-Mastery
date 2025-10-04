@@ -32,7 +32,7 @@ Spring Boot를 사용하여 기본적인 CRUD 기능을 갖춘 RESTful API를 �
 
 아래 링크를 통해 이 프로젝트의 소스코드를 `.zip` 파일로 즉시 다운로드할 수 있습니다. 
 
-**➡️ [Part 1 소스코드 다운로드](https://downgit.github.io/#/home?url=https://github.com/heizence/Spring-Boot-Mastery/new/main/part01-todo-api)**
+**➡️ [Part 1 소스코드 다운로드](https://downgit.github.io/#/home?url=https://github.com/heizence/Spring-Boot-Mastery/tree/main/part01-todo-api)**
 
 전체 저장소를 `git clone` 하는 방법은 [메인 README](https://github.com/heizence/Spring-Boot-Mastery/tree/main?tab=readme-ov-file#%EB%B0%A9%EB%B2%95-1-%EC%A0%84%EC%B2%B4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%81%B4%EB%A1%A0%ED%95%98%EC%97%AC-%EC%8B%A4%ED%96%89%ED%95%98%EA%B8%B0) 를 참고하세요.
 
