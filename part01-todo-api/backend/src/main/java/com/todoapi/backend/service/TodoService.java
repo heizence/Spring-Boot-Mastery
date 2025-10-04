@@ -15,6 +15,7 @@ import java.util.List;
 @Service
 @RequiredArgsConstructor
 public class TodoService {
+    // TodoService needs a TodoRepository to function. This is a dependency.
     private final TodoRepository todoRepository;
 
     public List<Todo> getAllTodos() {
@@ -41,11 +42,6 @@ public class TodoService {
 
     public void editTodo(Long id, RequestDto.Edit dto) {
         log.info("[TodoService]start editTodo");
-        Todo todo = todoRepository.findById(id).orElse(null);
-
-        if (todo == null) {
-            throw new CommonException(ErrorCode.TODO_NOT_FOUND);
-        }
 
         String title = dto.getTitle();
         String desc = dto.getDescription();
@@ -53,6 +49,10 @@ public class TodoService {
         if (title == null | desc == null) {
             throw new CommonException(ErrorCode.INVALID_INPUT_VALUE);
         }
+
+        Todo todo = todoRepository.findById(id)
+                .orElseThrow(() -> new CommonException(ErrorCode.TODO_NOT_FOUND));
+
         todo.setTitle(dto.getTitle());
         todo.setDescription(dto.getDescription());
         log.debug("[TodoService]edited todo : " + todo);
@@ -61,11 +61,8 @@ public class TodoService {
 
     public void toggleTodo(Long id) {
         log.info("[TodoService]start toggleTodo");
-        Todo todo = todoRepository.findById(id).orElse(null);
-
-        if (todo == null) {
-            throw new CommonException(ErrorCode.TODO_NOT_FOUND);
-        }
+        Todo todo = todoRepository.findById(id)
+                .orElseThrow(() -> new CommonException(ErrorCode.TODO_NOT_FOUND));
 
         todo.setCompleted(!todo.isCompleted());
         todoRepository.save(todo);

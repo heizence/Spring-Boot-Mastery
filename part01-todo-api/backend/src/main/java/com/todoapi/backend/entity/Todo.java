@@ -15,10 +15,10 @@ import lombok.Setter;
 public class Todo {
     // Specifies how the primary key is generated.
     @Id // Marks the id field as the primary key.
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // Configures the way the ID is generated.
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // Configures the way the ID is generated. DB auto-increment.
     private Long id;
 
-    @Column(nullable = false) // Marks the corresponding DB column as NOT NULL.
+    @Column(nullable = false) // Marks the corresponding DB column as NOT NULL(Colum constraint).
     private String title;
 
     @Column // You can omit attributes if you just want to mark it as a column.

@@ -27,6 +27,7 @@ public class GlobalExceptionHandler {
         ErrorCode errorCode = ex.getErrorCode();
         log.error(ex.getMessage());
         ResponseDto<?> response = ResponseDto.fail(errorCode.getStatus().value(), errorCode.getMessage());
+        // Exception handling is managed centrally here.
         return new ResponseEntity<>(response, errorCode.getStatus());
     }
 
