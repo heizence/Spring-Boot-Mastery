@@ -1,4 +1,4 @@
-# Part 1: 투두리스트 API
+# Part 1: Todo list API
 
 ## 1. 프로젝트 소개
 
