@@ -1,6 +1,6 @@
-package com.todoapi.backend.repository;
+package com.example.todoListApi.repository;
 
-import com.todoapi.backend.entity.Todo;
+import com.example.todoListApi.entity.Todo;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 // By extending JpaRepository<Todo, Long>, we get methods like save(), findById(), findAll(), deleteById() for free.

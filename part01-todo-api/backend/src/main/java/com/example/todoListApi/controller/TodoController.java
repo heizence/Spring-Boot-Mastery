@@ -1,9 +1,9 @@
-package com.todoapi.backend.controller;
+package com.example.todoListApi.controller;
 
-import com.todoapi.backend.dto.RequestDto;
-import com.todoapi.backend.dto.ResponseDto;
-import com.todoapi.backend.entity.Todo;
-import com.todoapi.backend.service.TodoService;
+import com.example.todoListApi.dto.RequestDto;
+import com.example.todoListApi.dto.ResponseDto;
+import com.example.todoListApi.entity.Todo;
+import com.example.todoListApi.service.TodoService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;

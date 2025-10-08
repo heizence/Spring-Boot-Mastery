@@ -1,4 +1,4 @@
-package com.todoapi.backend.config;
+package com.example.todoListApi.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;

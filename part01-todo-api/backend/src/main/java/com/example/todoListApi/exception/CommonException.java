@@ -1,4 +1,4 @@
-package com.todoapi.backend.exception;
+package com.example.todoListApi.exception;
 
 import lombok.Getter;
 

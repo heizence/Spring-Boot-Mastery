@@ -1,4 +1,4 @@
-package com.todoapi.backend.entity;
+package com.example.todoListApi.entity;
 
 // jakarta.persistence are JPA annotations used to map the class to a database table.
 

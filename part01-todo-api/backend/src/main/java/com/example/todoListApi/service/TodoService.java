@@ -1,10 +1,10 @@
-package com.todoapi.backend.service;
+package com.example.todoListApi.service;
 
-import com.todoapi.backend.dto.RequestDto;
-import com.todoapi.backend.entity.Todo;
-import com.todoapi.backend.exception.CommonException;
-import com.todoapi.backend.exception.ErrorCode;
-import com.todoapi.backend.repository.TodoRepository;
+import com.example.todoListApi.dto.RequestDto;
+import com.example.todoListApi.entity.Todo;
+import com.example.todoListApi.exception.CommonException;
+import com.example.todoListApi.exception.ErrorCode;
+import com.example.todoListApi.repository.TodoRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

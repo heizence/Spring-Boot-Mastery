@@ -1,6 +1,6 @@
-package com.todoapi.backend.exception;
+package com.example.todoListApi.exception;
 
-import com.todoapi.backend.dto.ResponseDto;
+import com.example.todoListApi.dto.ResponseDto;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
